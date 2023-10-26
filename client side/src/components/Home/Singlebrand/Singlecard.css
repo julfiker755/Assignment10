@@ -1,0 +1,9 @@
+.star span {
+    display:flex;
+    align-items: center;
+}
+.star span svg{
+    width: 25px;
+    height: 25px;
+    color: red;
+}

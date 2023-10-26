@@ -1,0 +1,18 @@
+/* small divise */
+/* @media (min-width: 0px) { 
+ 
+} */
+/* Desktop device */
+@media (min-width:1024px) { 
+    .click_menu {
+        transform: scaleY(0);
+        transition: 0.5s;
+        transform-origin:top;
+        opacity: .5;
+    }
+    
+    .click_add{
+        transform: scaleY(1)!important;
+        opacity: 1!important;
+    }
+}
